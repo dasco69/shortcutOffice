@@ -1,0 +1,132 @@
+html, body, ul {
+	padding: 0; margin: 0;
+}
+/* HEADER*/
+header {
+  	position: sticky;
+	top: 0;
+  	border-bottom: solid 2px white;
+  
+}
+ header {
+	list-style-type: none;
+	justify-content:; 
+	background-color: #5F9EA0;
+	font-family: calibri;
+}
+li , a , img {
+	padding-left:1%;
+	color:#FFF8DC;
+	font-size: 1.4em; 
+}
+li a img:hover {
+	background-color:#008B8B;
+}
+
+/*FIN HEADER*/
+
+/*BODY*/
+body {
+
+}
+/*ANNULE LE MEDIA QUERY PETITE_RESOLUTION*/
+	dir {
+		display: flex;
+		flex-direction: column;
+	}
+	p {
+		text-align: left;
+		text-align: center;
+		color: black;
+	}
+	/*STYLE "CODE"*/
+code {
+	background-color: white;
+	color: white ;
+  font-style: normal;
+  border-radius: 15px;
+  padding: 5px 15px;
+  text-align: center;	
+  font-weight: bold;	
+}
+/*WORD*/
+.part_word  {
+	background: #6495ED;
+	font-family: 'Major Mono Display', monospace;
+	border-bottom: solid 2px white;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	text-align: center;
+}
+.p_word {
+	display: flex;
+	flex-direction:row;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-right: 7%;
+	margin-left: 5%;
+	font-size:100%;
+}
+
+#cont1_word {
+	flex-grow: 1;
+	padding-bottom: 1px;
+}
+#cont2_word {
+	flex-grow: 1;
+}
+/*FIN WORD*/
+
+/*EXCEL*/
+.part_excel {
+	background:#00FA9A;
+	font-family: 'Major Mono Display', monospace;
+	border-bottom: solid 2px white;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}	
+.p_excel {
+	display: flex;
+	flex-direction:row;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-left: 5%;
+	font-size:100%;
+}
+#cont1_excel {
+	flex-grow: 1;
+}
+#cont2_excel {
+	flex-grow: 1;
+}
+
+/*FIN EXCEL*/
+.part_powerpoint {
+	background:#FF6347;
+	font-family: 'Major Mono Display', monospace;
+	border-bottom: solid 2px white;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+	
+.p_powerpoint {
+	display: flex;
+	flex-direction:row;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-left: 5%;
+	font-size:100%;
+}
+#cont1_powerpoint {
+	flex-grow: 1;
+}
+#cont2_powerpoint {
+	flex-grow: 1;
+}
+
+
+/*FIN BODY*/
+
+
