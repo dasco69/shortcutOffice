@@ -42,12 +42,12 @@ body {
 	/*STYLE "CODE"*/
 code {
 	background-color: white;
-	color: white ;
-  font-style: normal;
-  border-radius: 15px;
-  padding: 5px 15px;
-  text-align: center;	
-  font-weight: bold;	
+	color: black ;
+  	font-style: normal;
+  	border-radius: 15px;
+  	padding: 5px 15px;
+  	text-align: center;	
+  	font-weight: bold;	
 }
 /*WORD*/
 .part_word  {
