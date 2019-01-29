@@ -1,0 +1,22 @@
+@media all and (max-device-width: 480px)
+{
+	.part_word {
+	}
+	.p_word {
+	display: flex;
+	flex-direction:column;
+	margin-right: 5%;
+	margin-left:0%;
+	font-size:90%;
+}
+	code{
+		text-align: center;
+	}
+	dir {
+		display: flex;
+		flex-direction: column;
+	}
+	p {
+		text-align: center;
+	}
+}
