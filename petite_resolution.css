@@ -1,14 +1,8 @@
 @media all and (max-device-width: 480px)
 {
-	.part_word {
+	h1 {
+		font-size: 1.5em;
 	}
-	.p_word {
-	display: flex;
-	flex-direction:column;
-	margin-right: 5%;
-	margin-left:0%;
-	font-size:90%;
-}
 	code{
 		text-align: center;
 	}
@@ -19,4 +13,48 @@
 	p {
 		text-align: center;
 	}
+	/*HEADER*/
+	header {
+  	position: relative;
+	}
+	li , a , img {
+		width: 70px;
+	}
+	li a:hover {
+		width: 60px;
+	}
+	/*WORD*/
+	.part_word {
+	}
+	.p_word {
+	display: flex;
+	flex-direction:column;
+	margin-right: 10%;
+	margin-left:0%;
+	font-size:90%;
+}
+	/*FIN WORD*/
+	/*EXCEL*/
+	.part_excel {
+	}
+	.p_excel {
+	display: flex;
+	flex-direction:column;
+	margin-right: 10%;
+	margin-left:0%;
+	font-size:90%;
+}
+	/*FIN EXCEL*/
+	/*POWERPOINT*/
+	.part_powerpoint {
+	}
+	.p_powerpoint {
+	display: flex;
+	flex-direction:column;
+	margin-right: 10%;
+	margin-left:0%;
+	font-size:90%;
+}
+	/*FIN POWERPOINT*/
+
 }
