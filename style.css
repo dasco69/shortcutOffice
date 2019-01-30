@@ -1,0 +1,152 @@
+html, body, ul {
+	padding: 0; margin: 0;
+}
+/* HEADER*/
+header {
+  	position: sticky;
+	top: 0;
+  	border-bottom: solid 2px white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+/*FIN HEADER*/
+
+/*BODY*/
+body {
+
+}
+/*ANNULE LE MEDIA QUERY PETITE_RESOLUTION*/
+	h1 {
+		font-family: 'Major Mono Display', monospace;
+	}
+	dir {
+		display: flex;
+		flex-direction: column;
+	}
+	p {
+		text-align: left;
+		text-align: center;
+		color: black;
+	}
+	/*STYLE "CODE"*/
+code {
+	background-color: white;
+	color: black ;
+  	font-style: normal;
+  	border-radius: 15px;
+  	padding: 5px 15px;
+  	text-align: center;	
+  	font-weight: bold;	
+}
+/*WORD*/
+.part_word  {
+	background: #6495ED;
+	font-family: 'Major Mono Display', monospace;
+	border-bottom: solid 2px white;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	text-align: center;
+}
+.p_word {
+	display: flex;
+	flex-direction:row;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-right: 7%;
+	margin-left: 5%;
+	font-size:100%;
+}
+
+#cont1_word {
+	flex-grow: 1;
+	padding-bottom: 1px;
+}
+#cont2_word {
+	flex-grow: 1;
+}
+/*FIN WORD*/
+
+/*EXCEL*/
+.part_excel  {
+	background:#00FA9A;
+	font-family: 'Major Mono Display', monospace;
+	border-bottom: solid 2px white;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	text-align: center;
+}
+.p_excel {
+	display: flex;
+	flex-direction:row;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-right: 7%;
+	margin-left: 5%;
+	font-size:100%;
+}
+
+#cont1_excel {
+	flex-grow: 1;
+	padding-bottom: 1px;
+}
+#excel {
+	flex-grow: 1;
+}
+/*FIN EXCEL*/
+/*POWERPOINT*/
+.part_powerpoint  {
+	background-color:  #ff3333;
+	font-family: 'Major Mono Display', monospace;
+	border-bottom: solid 2px white;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	text-align: center;
+}
+.p_powerpoint {
+	display: flex;
+	flex-direction:row;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-right: 7%;
+	margin-left: 5%;
+	font-size:100%;
+}
+
+#cont1_powerpoint {
+	flex-grow: 1;
+	padding-bottom: 1px;
+}
+#powerpoint {
+	flex-grow: 1;
+}
+/*FIN POWERPOINT*/
+#haut_page {
+	color: white;
+}
+
+/*FIN BODY*/
+
+
