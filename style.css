@@ -6,22 +6,31 @@ header {
   	position: sticky;
 	top: 0;
   	border-bottom: solid 2px white;
-  
 }
- header {
-	list-style-type: none;
-	justify-content:; 
-	background-color: #5F9EA0;
-	font-family: calibri;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-li , a , img {
-	padding-left:1%;
-	color:#FFF8DC;
-	font-size: 1.4em; 
+
+li {
+  float: left;
 }
-li a img:hover {
-	background-color:#008B8B;
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
 
 /*FIN HEADER*/
 
@@ -30,6 +39,9 @@ body {
 
 }
 /*ANNULE LE MEDIA QUERY PETITE_RESOLUTION*/
+	h1 {
+		font-family: 'Major Mono Display', monospace;
+	}
 	dir {
 		display: flex;
 		flex-direction: column;
@@ -78,54 +90,62 @@ code {
 /*FIN WORD*/
 
 /*EXCEL*/
-.part_excel {
+.part_excel  {
 	background:#00FA9A;
 	font-family: 'Major Mono Display', monospace;
 	border-bottom: solid 2px white;
-	color: white;
-	padding: 2%;
+	padding-bottom: 2%;
+	padding-top: 2%;
 	text-align: center;
-}	
+}
 .p_excel {
 	display: flex;
 	flex-direction:row;
 	font-family: 'Montserrat', sans-serif;
 	text-align: left;
+	margin-right: 7%;
 	margin-left: 5%;
 	font-size:100%;
 }
+
 #cont1_excel {
 	flex-grow: 1;
+	padding-bottom: 1px;
 }
-#cont2_excel {
+#excel {
 	flex-grow: 1;
 }
-
 /*FIN EXCEL*/
-.part_powerpoint {
-	background:#FF6347;
+/*POWERPOINT*/
+.part_powerpoint  {
+	background-color:  #ff3333;
 	font-family: 'Major Mono Display', monospace;
 	border-bottom: solid 2px white;
-	color: white;
-	padding: 2%;
+	padding-bottom: 2%;
+	padding-top: 2%;
 	text-align: center;
 }
-	
 .p_powerpoint {
 	display: flex;
 	flex-direction:row;
 	font-family: 'Montserrat', sans-serif;
 	text-align: left;
+	margin-right: 7%;
 	margin-left: 5%;
 	font-size:100%;
 }
+
 #cont1_powerpoint {
 	flex-grow: 1;
+	padding-bottom: 1px;
 }
-#cont2_powerpoint {
+#powerpoint {
 	flex-grow: 1;
 }
-
+/*FIN POWERPOINT*/
+#haut_page {
+	color: white;
+}
 
 /*FIN BODY*/
 
